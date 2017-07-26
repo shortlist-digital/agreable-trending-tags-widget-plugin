@@ -10,27 +10,27 @@ $widget_config = array (
 	'display' => 'block',
 	'sub_fields' => array (
 		array (
-		'key' => $key . '_basic_details_tab',
-		'label' => 'Basic Details',
-		'type' => 'tab',
-		'placement' => $widgetplacement,
+			'key' => $key . '_basic_details_tab',
+			'label' => 'Basic Details',
+			'type' => 'tab',
+			'placement' => $widgetplacement,
 		),
 		array (
 			'key' => $key . '_tags_manual',
-				'label' => 'Tags',
-				'name' => 'tags',
-				'type' => 'taxonomy',
-				'taxonomy' => 'post_tag',
-				'field_type' => 'multi_select',
-				'add_term' => 0,
-				'save_terms' => 0,
-				'return_format' => 'object'
+			'label' => 'Tags',
+			'name' => 'tags_manual',
+			'type' => 'taxonomy',
+			'taxonomy' => 'post_tag',
+			'field_type' => 'multi_select',
+			'add_term' => 0,
+			'save_terms' => 0,
+			'return_format' => 'object'
 		),
 		array (
-		'key' => $key . '_advanced_details_tab',
-		'label' => 'Advanced Details',
-		'type' => 'tab',
-		'placement' => $widgetplacement,
+			'key' => $key . '_advanced_details_tab',
+			'label' => 'Advanced Details',
+			'type' => 'tab',
+			'placement' => $widgetplacement,
 		)
 	)
 );
