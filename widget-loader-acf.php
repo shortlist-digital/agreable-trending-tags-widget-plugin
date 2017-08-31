@@ -16,15 +16,10 @@ $widget_config = array (
 			'placement' => $widgetplacement,
 		),
 		array (
-			'key' => $key . '_tags_manual',
-			'label' => 'Tags',
-			'name' => 'tags_manual',
-			'type' => 'taxonomy',
-			'taxonomy' => 'post_tag',
-			'field_type' => 'multi_select',
-			'add_term' => 0,
-			'save_terms' => 0,
-			'return_format' => 'object'
+			'key' => $key . '_placeholder',
+			'label' => 'Trending Tags',
+			'type' => 'message',
+			'message' => 'This will autofill with trending tags',
 		),
 		array (
 			'key' => $key . '_advanced_details_tab',
